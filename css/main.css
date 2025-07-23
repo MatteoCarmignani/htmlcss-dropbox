@@ -106,3 +106,44 @@ header {
 p {
     margin-top: 0;
 }
+
+
+
+
+
+/*footer*/
+
+footer {
+    background-color: #000000;
+}
+
+.container-footer {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.row-footer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    color: white;
+}
+
+.footer-column {
+    width: calc((100% / 5) - 50px);
+}
+
+.footer-titolo {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+footer ul li {
+margin-bottom: 10px;
+list-style-type: none;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+}
