@@ -179,6 +179,10 @@ main hr {
     margin-bottom: 55px;
 }
 
+main li {
+    margin-bottom: 20px;
+}
+
 /*footer*/
 
 footer {
