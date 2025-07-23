@@ -37,32 +37,72 @@ header {
     margin: 18px;
 }
 
+.categorie:hover {
+    border-bottom: 3px solid black;
+}
+
 .riquadro-blu {
-    background-color: blue;
+    background-color: #0061fe;
     color: white;
-    padding: 5px 11px;
+    padding: 7px 11px;
+}
+
+.riquadro-blu:hover {
+    background-color: #66c2f2;
 }
 
 /*main*/
 
 .jumbotron {
-    height: 700px;
     background-color: #b4d0e6;
 }
 
 .container-jumbotron {
-    width: 70%;
+    width: 60%;
     margin: 0 auto;
+    position: relative;
+    bottom: -98px;
 }
 
 .titolo {
-    font-size: 80px;
+    font-size: 60px;
     margin: 0;
+    margin-bottom: 50px;
+}
+
+.jumbotron-sottoparagrafo {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+
 }
 
 .jumbotron-paragrafo {
-    width: 40%;
+    width: 35%;
     height: 500px;
-    background-color: chartreuse;
 }
 
+.jumbotron-paragrafo-2 {
+    margin-bottom: 45px;
+    margin-top: 45px;
+}
+
+.down-arrow {
+    font-size: 45px;
+    margin-top: 45px;
+}
+
+.jumbotron-riquadro-foto {
+    width: 50%;
+    height: 450px;
+}
+
+.jumbotron-pic {
+    max-height: 100%;
+    position: relative;
+
+}
+
+p {
+    margin-top: 0;
+}
