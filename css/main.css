@@ -1,4 +1,4 @@
-main {
+body {
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
@@ -6,13 +6,63 @@ main {
 }
 
 header {
-    display: flex;
-    align-content: space-between;
+
 }
 
-.container-header {
-    width: 30%;
-    /*debug*/
+.top-bar {
     height: 100px;
-    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
 }
+
+.top-bar-container {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.top-bar-container-destro {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.categorie {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: 18px;
+}
+
+.riquadro-blu {
+    background-color: blue;
+    color: white;
+    padding: 5px 11px;
+}
+
+/*main*/
+
+.jumbotron {
+    height: 700px;
+    background-color: #b4d0e6;
+}
+
+.container-jumbotron {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.titolo {
+    font-size: 80px;
+    margin: 0;
+}
+
+.jumbotron-paragrafo {
+    width: 40%;
+    height: 500px;
+    background-color: chartreuse;
+}
+
