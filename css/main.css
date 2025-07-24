@@ -1,3 +1,4 @@
+
 body {
     margin: 0 auto;
     padding: 0;
@@ -48,6 +49,7 @@ header {
     background-color: #0061fe;
     color: white;
     padding: 7px 11px;
+    text-align: center;
 }
 
 .riquadro-blu:hover {
@@ -116,12 +118,15 @@ p {
     margin-left: 15%;
     width: 70%;
     /*debug*/
-    height: 3000px;
 }
 
 main h1 {
     margin-top: 120px;
     font-size: 34px;
+}
+
+main h2 {
+    font-size: 25px;
 }
 
 .fatturazioni {
@@ -148,23 +153,24 @@ main h1 {
 .row-main {
     display: flex;
     flex-wrap: wrap;
+    align-items: stretch;
     gap: 50px;
 }
 
 .main-column {
-     width: calc((100% / 3) - (150px / 3));
-     margin-top: 40px;
+     width: calc((100% / 3) - (100px / 3));
 }
 
 .quantita {
     text-align: center;
     padding: 9px;
     border: solid 1px grey;
+    margin-top: 50px;
 }
 
 .piani {
     border: solid 1px grey;
-    padding: 20px 10%;
+    padding: 20px 30px;
     font-size: 13px;
 }
 
@@ -181,6 +187,44 @@ main hr {
 
 main li {
     margin-bottom: 20px;
+    margin-left: -11px;
+}
+
+.team {
+    border: solid 1px grey;
+    padding: 20px 30px;
+    font-size: 13px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.partner {
+    display: flex;
+    gap: 50px;
+    margin-top: 200px;
+}
+
+.immagine-partner {
+    width: 60%;
+}
+
+.immagine-partner img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%; 
+  height: auto;
+}
+
+.testo-partner {
+    width: 30%;
+    margin-top: 30px;
+}
+
+.riquadro-nero {
+    padding: 7px 11px;
+    border: 2px solid black;
+    text-align: center;
+    width: 150px;
 }
 
 /*footer*/
@@ -190,7 +234,7 @@ footer {
 }
 
 .container-footer {
-    width: 60%;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -214,9 +258,12 @@ footer ul {
     list-style-type: none;
 }
 
+footer li {
+    margin-bottom: 6px;
+}
+
 footer a {
-    font-size: 10px;
-    margin-bottom: 10px;
+    font-size: 13px;
     color: white;
     text-decoration: none;
     list-style-type: none;
@@ -224,7 +271,7 @@ footer a {
 
 .sottocolonna {
     margin-top: 30px;
-    font-size: 9px;
+    font-size: 10px;
     color: #859298;
 }
 
