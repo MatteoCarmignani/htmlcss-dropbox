@@ -127,6 +127,7 @@ main h1 {
 
 main h2 {
     font-size: 25px;
+    margin-top: 0;
 }
 
 .fatturazioni {
@@ -158,7 +159,7 @@ main h2 {
 }
 
 .main-column {
-     width: calc((100% / 3) - (100px / 3));
+    width: calc((100% / 3) - (100px / 3));
 }
 
 .quantita {
@@ -225,6 +226,23 @@ main li {
     border: 2px solid black;
     text-align: center;
     width: 150px;
+}
+
+.row-azioni {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.column-azioni {
+    width: calc((100% / 3) - (50px / 3))
+}
+
+.column-azioni img {
+  display: flex;
+  margin: 0 auto;
+  max-width: 100%; 
+  height: auto;
 }
 
 /*footer*/
