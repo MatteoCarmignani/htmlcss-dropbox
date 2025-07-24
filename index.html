@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/main.css">
-<title>Dropbox</title>
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/main.css">
+    <title>Dropbox</title>
 </head>
+
 <body>
     <header>
         <div class="top-bar">
             <div class="top-bar-container">
-                <div class="categorie"><img src="img/logo-small.png" alt="logo piccolo"></div>
+                <div class="categorie-no-link"><img src="img/logo-small.png" alt="logo piccolo"></div>
                 <div class="categorie">Perchè Dropbox</div>
                 <div class="categorie">Funzioni</div>
                 <div class="categorie">Piani e Prezzi</div>
@@ -24,7 +25,7 @@
                 <div class="categorie">Supporto</div>
                 <div class="categorie">Contatta l'ufficio vendita</div>
                 <div class="categorie">Accedi</div>
-                <div class="categorie">
+                <div class="categorie-no-link">
                     <div class="riquadro-blu">Inizia</div>
                 </div>
             </div>
@@ -44,7 +45,7 @@
                             </p>
                             <p class="jumbotron-paragrafo-2"><span class="riquadro-blu">Inizia la tua prova gratuita</span></p>
                             <p>Annulla in qualsiasi momento</p>
-                            <p class="down-arrow"><i class="fa-solid fa-arrow-down"></i></p>
+                            <p class="down-arrow"><a href="#sezione1"><i class="fa-solid fa-arrow-down"></i></a></p>
                         </div>
                         <div class="jumbotron-riquadro-foto">
                             <img src="img/jumbo.png" alt="immagine1" class="jumbotron-pic">
@@ -56,7 +57,7 @@
 
         
         <div class="container-main">
-            <h1>Trova il piano business che fa per te</h1>
+            <h1 id="sezione1">Trova il piano business che fa per te</h1>
 
             <div class="fatturazioni">
                 <i class="fa-regular fa-circle" style="color: #0061fe;"></i><span class="fatturazione-distacco">Fatturazione Mensile</span> 
@@ -78,7 +79,7 @@
                         </ul>
                         <p class="riquadro-blu centratura">Prova gratis per 30 giorni</p>
                         <p>oppure <a href="link">acquista ora</a></p>
-                        <hr style="color: grey; width: 40px;">
+                        <div class="divisorio-colonna"></div>
                         <p><strong>Punti Salienti del piano</strong></p>
                         <ul class="fa-ul">
                             <li><span class="fa-li"><i class="fa-solid fa-check" style="color: #387efe;"></i></span>Invia file fino a 100 GB con Dropbox Transfert</li>
@@ -102,7 +103,7 @@
                         </ul>
                         <p class="riquadro-blu centratura">Prova gratis per 30 giorni</p>
                         <p>oppure <a href="link">acquista ora</a></p>
-                        <hr style="color: grey; width: 40px;">
+                        <div class="divisorio-colonna"></div>
                         <p><strong>Punti Salienti del piano</strong></p>
                         <ul class="fa-ul">
                             <li><span class="fa-li"><i class="fa-solid fa-check" style="color: #387efe;"></i></span>Nessun limite di spazio per i file</li>
@@ -129,7 +130,7 @@
                         </ul>
                         <p class="riquadro-blu centratura">Contattaci</p>
                         <p>oppure <a href="link">acquista ora</a></p>
-                        <hr style="color: grey; width: 40px;">
+                        <div class="divisorio-colonna"></div>
                         <p><strong>Punti Salienti del piano</strong></p>
                         <ul class="fa-ul">
                             <li><span class="fa-li"><i class="fa-solid fa-check" style="color: #387efe;"></i></span>Cartelle offline su dispositivi mobili</li>
@@ -139,7 +140,8 @@
                     </div>
                 </div>
             </div>
-            <div class="quantita">
+
+            <div class="quantita-team">
                 Team <i class="fa-solid fa-building"></i>
             </div>
             <div class="team">
@@ -227,7 +229,7 @@
                             <li><a href="Piani">Piani</a></li>
                             <li><a href="Sicurezza">Sicurezza</a></li>
                             <li><a href="Funzioni">Funzioni</a></li>
-                            <hr style="border: 0.5px solid white;">
+                            <div class="divisorio-footer"></div>
                             <li class="sottocolonna"><i class="fa-solid fa-earth-americas"></i> Italiano<i class="fa-solid fa-caret-up"></i></li>
                         </ul>
                     </nav>

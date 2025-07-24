@@ -41,6 +41,13 @@ header {
     margin: 18px;
 }
 
+.categorie-no-link {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: 18px;
+}
+
 .categorie:hover {
     border-bottom: 3px solid black;
 }
@@ -112,6 +119,10 @@ p {
     margin-top: 0;
 }
 
+.jumbotron a {
+    color: #000000;
+}
+
 /*main*/
 
 .container-main {
@@ -132,45 +143,55 @@ main h2 {
 
 .fatturazioni {
     margin-top: 55px;
+    margin-bottom: 40px;
 }
 
 .fatturazione-distacco {
     margin-right: 40px;
 }
-.cerchio {
-    border-radius: 50%;
-    border-color: rgb(246, 255, 0);
-    border: solid 8px;
-    padding: 0.5px 11px;
-}
 
-.cerchio-vuoto {
+/*.cerchio-vuoto {
     border-radius: 50%;
     border-color: grey;
     border: solid 2px;
     padding: 0.5px 11px;
-}
+}*/
 
 .row-main {
     display: flex;
     flex-wrap: wrap;
-    align-items: stretch;
     gap: 50px;
+    display: flex;
+    align-items: stretch;
+}
+
+.divisorio-colonna {
+    background-color: grey; 
+    width: 40px; 
+    height: 0.5px;
+    margin-top: 39px;
+    margin-bottom: 57px;
 }
 
 .main-column {
-    width: calc((100% / 3) - (100px / 3));
+    width: calc((100% / 3) - (105px / 3));
+    border: solid 1px grey;
 }
 
 .quantita {
     text-align: center;
     padding: 9px;
+    border-bottom: solid 1px grey;   
+}
+
+.quantita-team {
+    margin-top: 40px;
     border: solid 1px grey;
-    margin-top: 50px;
+    text-align: center;
+    padding: 9px;
 }
 
 .piani {
-    border: solid 1px grey;
     padding: 20px 30px;
     font-size: 13px;
 }
@@ -264,7 +285,7 @@ footer {
 }
 
 .footer-column {
-    width: calc((100% / 5) - 50px);
+    width: calc((100% / 5) - (50px / 5));
 }
 
 .footer-titolo {
@@ -295,4 +316,11 @@ footer a {
 
 footer hr {
     margin-top: 20px;
+}
+
+.divisorio-footer {
+    background-color: white; 
+    height: 0.5px;
+    width: 80%;
+    margin-top: 100px;
 }
